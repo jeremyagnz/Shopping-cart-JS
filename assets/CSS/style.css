@@ -1,0 +1,239 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* Base */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color:white;
+}
+/* HEADER */
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 10%;
+    border-bottom: 1px dotted  black;
+}
+.content-logo{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-logo{
+    width: 40px;
+}
+.logo-tittle{
+    text-decoration: none;
+    font-size: 30px;
+    padding-left: 7px;
+    color:black;
+}
+
+.navigation{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.nav-icon{
+    font-size: 40px;
+    color: black;
+}
+
+/* MAIN CONTENT */
+.main{
+    width: 100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    height: auto; 
+    background-color: rgb(235, 235, 235); 
+    margin-bottom: 50px;
+    flex-direction: row;
+}
+.information{
+    width:40%;
+    height: 50%;
+    background-color: white;
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    box-shadow: 5px 1px 6px rgba(0, 0, 0, 0.15);
+    
+}
+.information h1{
+    font-size:35px ;
+    font-weight: 250;
+}
+.information p {
+    font-size: 18px;
+}
+
+.card-img{
+    width: 50%;
+}
+
+
+/* CARDS SHOPPING */
+.wrapper-cards{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 50px;
+
+}
+
+.Cards-object{
+    width: max-content;
+    height: auto;
+    border: 1px dotted black;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+.Cards-object img{
+    width: 250px;
+    height: 180px;
+}
+
+.info{
+    padding-bottom: 25px;
+}
+.info h4{
+    font-size: 20px;
+}
+.info p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.precio{
+    padding-top: 10px;
+}
+
+.info button{
+    width: 150px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.137);
+    border: none;
+    border-radius: 5px;
+}
+.info button:hover{
+    background-color: rgba(12, 17, 34, 0.349);
+}
+
+/* FOOTER */
+
+.footer{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(235, 235, 235);
+    
+}
+
+.nav-wrapper{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.submenu{
+    width: 600px;
+    height: 500px;
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    border-top: 0px;
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 0px 20px;
+    overflow: scroll;
+    overflow-x: hidden;
+    scrollbar-width: 10px;
+}
+
+.show-content{
+    visibility: visible;
+    
+}
+
+.button{
+    margin-top: 50px;
+    width:100%;
+    height: 35px;
+    background-color: rgb(235, 235, 235);
+    border: 0.5px solid rgba(0, 0, 0, 0.089);
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight:600;
+    margin-bottom: 25px;
+}
+.button:hover{
+    background-color: white;
+    
+}
+
+.submenu a{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+thead{
+    text-align: center;
+}
+td{
+    color: black;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+tbody{
+    text-align: center;
+    
+}
+
+.borrar-curso{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+}
+.borrar-curso:hover{
+    background-color: rgb(126, 12, 12);
+    color: white;
+    text-decoration: none;
+}
